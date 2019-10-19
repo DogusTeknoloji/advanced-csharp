@@ -21,7 +21,8 @@ namespace AdvancedCSharp {
             // RunTutorial<Lambda>();
             // RunTutorial<Linq>();
 
-            RunTutorial<Dynamic>();
+            // RunTutorial<Dynamic>();
+            RunTutorial<Variance>();
 
             Console.ReadKey();
         }
