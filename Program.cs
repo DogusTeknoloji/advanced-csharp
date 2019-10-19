@@ -15,9 +15,11 @@ namespace AdvancedCSharp {
             // RunTutorial<Generics>();
             // RunTutorial<Nullable>();
             // RunTutorial<Iterators>();
+
             // RunTutorial<AnonTypes>();
             // RunTutorial<ExtensionMethods>();
             // RunTutorial<Lambda>();
+            RunTutorial<Linq>();
 
             Console.ReadKey();
         }
