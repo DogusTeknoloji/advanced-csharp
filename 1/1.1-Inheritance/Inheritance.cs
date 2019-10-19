@@ -14,6 +14,9 @@ namespace AdvancedCSharp {
             // b.Say();
             // d.Say();
             // b_d.Say();
+
+            // explicit
+            // d.YouCannotSeeMe();
         }
 
         public class Base {
@@ -30,7 +33,7 @@ namespace AdvancedCSharp {
             }
         }
 
-        public class Derived : Base {
+        public sealed class Derived : Base, IExplicit {
             private string _name;
 
             public Derived(string name = "Derived") {
@@ -41,9 +44,17 @@ namespace AdvancedCSharp {
                 Console.WriteLine("Derived");
             }
 
-            public override void Initialize() {
+            public sealed override void Initialize() {
                 Console.Write(_name.Length);
             }
+
+            void IExplicit.YouCannotSeeMe() {
+            }
+        }
+
+        public interface IExplicit {
+
+            void YouCannotSeeMe();
         }
     }
 }

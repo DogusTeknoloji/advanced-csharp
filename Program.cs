@@ -8,7 +8,11 @@ namespace AdvancedCSharp {
             // RunTutorial<Inheritance>();
             // RunTutorial<Events>();
             // RunTutorial<Reflection>();
-            RunTutorial<Attributes>();
+            // RunTutorial<Attributes>();
+            // RunTutorial<Indexers>();
+
+            // RunTutorial<Partial>();
+            RunTutorial<Generics>();
 
             Console.ReadKey();
         }

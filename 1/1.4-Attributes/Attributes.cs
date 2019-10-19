@@ -13,6 +13,7 @@ namespace AdvancedCSharp {
             dal.Save(new Supplier());
         }
 
+        [AttributeUsage(AttributeTargets.Class, Inherited = true)]
         public class LogAttribute : Attribute {
         }
 
