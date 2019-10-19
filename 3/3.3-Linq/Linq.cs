@@ -8,6 +8,8 @@ namespace AdvancedCSharp {
     public class Linq : ITutorial {
 
         public void Run() {
+            // http://www.umutozel.com/javascript-linq-01
+            
             var expList = new List<Expression>();
             var calls1 =    from exp in expList
                             where exp.NodeType == ExpressionType.Call

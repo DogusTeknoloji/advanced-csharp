@@ -19,7 +19,9 @@ namespace AdvancedCSharp {
             // RunTutorial<AnonTypes>();
             // RunTutorial<ExtensionMethods>();
             // RunTutorial<Lambda>();
-            RunTutorial<Linq>();
+            // RunTutorial<Linq>();
+
+            RunTutorial<Dynamic>();
 
             Console.ReadKey();
         }
