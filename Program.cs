@@ -12,7 +12,8 @@ namespace AdvancedCSharp {
             // RunTutorial<Indexers>();
 
             // RunTutorial<Partial>();
-            RunTutorial<Generics>();
+            // RunTutorial<Generics>();
+            RunTutorial<Nullable>();
 
             Console.ReadKey();
         }

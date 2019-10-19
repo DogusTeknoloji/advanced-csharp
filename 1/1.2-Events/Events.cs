@@ -6,7 +6,7 @@ namespace AdvancedCSharp {
 
         public void Run() {
             var p = new Printer();
-            p.Printed += (sender, args) => Console.WriteLine($"Printed: {args.PrintStr}");
+            p.Printed += (sender, args) => Console.WriteLine("Printed: " + args.PrintStr);
 
             p.Print("Hello, Class!");
         }

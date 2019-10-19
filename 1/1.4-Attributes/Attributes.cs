@@ -43,7 +43,7 @@ namespace AdvancedCSharp {
             public void Save(object o) {
                 var t = o.GetType();
                 if (Attribute.IsDefined(t, typeof(LogAttribute), false)) {
-                    Console.WriteLine($"{t} is saved.");
+                    Console.WriteLine(t + " is saved.");
                 }
             }
         }
