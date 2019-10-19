@@ -1,14 +1,18 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
 
-namespace advanced_csharp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+namespace AdvancedCSharp {
+
+    class Program {
+
+        static void Main(string[] args) {
+            // RunTutorial<Inheritance>();
+            RunTutorial<Events>();
+
+            Console.ReadKey();
+        }
+
+        public static void RunTutorial<T>() where T: ITutorial, new() {
+            new T().Run();
         }
     }
 }
