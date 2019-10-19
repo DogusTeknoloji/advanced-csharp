@@ -6,7 +6,9 @@ namespace AdvancedCSharp {
 
         static void Main(string[] args) {
             // RunTutorial<Inheritance>();
-            RunTutorial<Events>();
+            // RunTutorial<Events>();
+            // RunTutorial<Reflection>();
+            RunTutorial<Attributes>();
 
             Console.ReadKey();
         }
