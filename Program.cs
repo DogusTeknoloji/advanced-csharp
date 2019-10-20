@@ -27,8 +27,13 @@ namespace AdvancedCSharp {
             // RunTutorial<Async>();
             // RunTutorial<CallerInfo>();
 
-            RunTutorial<StaticImports>();
-            RunTutorial<PropertyInitializers>();
+            // RunTutorial<StaticImports>();
+            // RunTutorial<PropertyInitializers>();
+            // RunTutorial<ExpressionBody>();
+            // RunTutorial<ExceptionFilter>();
+            // RunTutorial<NullPropagator>();
+            // RunTutorial<StringInterpolation>();
+            RunTutorial<NameOf>();
 
             Console.ReadKey();
         }
