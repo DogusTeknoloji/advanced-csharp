@@ -40,7 +40,10 @@ namespace AdvancedCSharp {
             // RunTutorial<PatternMatching>();
             // RunTutorial<LocalFunctions>();
             // RunTutorial<RefLocalReturn>();
-            RunTutorial<DefaultLiterals>();
+            // RunTutorial<DefaultLiterals>();
+            // RunTutorial<Discards>();
+            // RunTutorial<NumericImprovements>();
+            // RunTutorial<PrivateProtected>();
 
             Console.ReadKey();
         }
