@@ -39,6 +39,8 @@ namespace AdvancedCSharp {
             // RunTutorial<Tuples>();
             // RunTutorial<PatternMatching>();
             // RunTutorial<LocalFunctions>();
+            // RunTutorial<RefLocalReturn>();
+            RunTutorial<DefaultLiterals>();
 
             Console.ReadKey();
         }
