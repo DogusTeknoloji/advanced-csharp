@@ -27,6 +27,9 @@ namespace AdvancedCSharp {
             // RunTutorial<Async>();
             // RunTutorial<CallerInfo>();
 
+            RunTutorial<StaticImports>();
+            RunTutorial<PropertyInitializers>();
+
             Console.ReadKey();
         }
 
