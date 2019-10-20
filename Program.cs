@@ -33,7 +33,10 @@ namespace AdvancedCSharp {
             // RunTutorial<ExceptionFilter>();
             // RunTutorial<NullPropagator>();
             // RunTutorial<StringInterpolation>();
-            RunTutorial<NameOf>();
+            // RunTutorial<NameOf>();
+
+            // RunTutorial<OutVar>();
+            RunTutorial<Tuples>();
 
             Console.ReadKey();
         }
