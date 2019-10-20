@@ -22,7 +22,10 @@ namespace AdvancedCSharp {
             // RunTutorial<Linq>();
 
             // RunTutorial<Dynamic>();
-            RunTutorial<Variance>();
+            // RunTutorial<Variance>();
+
+            // RunTutorial<Async>();
+            // RunTutorial<CallerInfo>();
 
             Console.ReadKey();
         }
