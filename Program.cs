@@ -45,14 +45,14 @@ namespace AdvancedCSharp {
             // RunTutorial<NumericImprovements>();
             // RunTutorial<PrivateProtected>();
 
-            RunTutorial<ReadonlyMembers>();
-            RunTutorial<NullableReferenceTypes>();
+            // RunTutorial<ReadonlyMembers>();
+            // RunTutorial<NullableReferenceTypes>();
             RunTutorial<DefaultInterfaceMembers>();
-            RunTutorial<AsyncStreams>();
-            RunTutorial<MorePatternMatching>();
-            RunTutorial<RangeIndicies>();
-            RunTutorial<UsingDeclarations>();
-            RunTutorial<NullCoalescingAssignment>();
+            // RunTutorial<AsyncStreams>();
+            // RunTutorial<MorePatternMatching>();
+            // RunTutorial<RangeIndicies>();
+            // RunTutorial<UsingDeclarations>();
+            // RunTutorial<NullCoalescingAssignment>();
 
             Console.ReadKey();
         }
