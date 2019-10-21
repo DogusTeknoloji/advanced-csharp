@@ -7,7 +7,9 @@ namespace AdvancedCSharp {
 
         public void Run() {
             ILogger logger = new ConsoleLogger();
+            logger.Log(LogLevel.Warning, "Beware the fury of a patient man.");
             logger.Log(new InvalidOperationException("This is not allowed!"));
+            logger.Log(LogLevel.Info, "Nevermind.");
         }
 
         public interface ILogger {
