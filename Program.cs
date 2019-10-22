@@ -47,7 +47,7 @@ namespace AdvancedCSharp {
 
             // RunTutorial<ReadonlyMembers>();
             // RunTutorial<NullableReferenceTypes>();
-            RunTutorial<DefaultInterfaceMembers>();
+            // RunTutorial<DefaultInterfaceMembers>();
             // RunTutorial<AsyncStreams>();
             // RunTutorial<MorePatternMatching>();
             // RunTutorial<RangeIndicies>();
