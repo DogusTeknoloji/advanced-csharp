@@ -16,7 +16,7 @@ namespace AdvancedCSharp {
                             select exp;
             // turns into this
             var calls2 = expList.Where(e => e.NodeType == ExpressionType.Call);
-
+            
             Action<string> normalLambda = (string message) => Console.WriteLine(message);
             // same syntax, compiler magic!
             Expression<Action<string>> expressionLambda = (string message) => Console.WriteLine(message);

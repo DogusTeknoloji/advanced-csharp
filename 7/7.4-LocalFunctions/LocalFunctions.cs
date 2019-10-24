@@ -18,8 +18,8 @@ namespace AdvancedCSharp {
             public static int LambdaFactorial(int n) {
                 var nthFactorial = default(Func<int, int>);
 
-                nthFactorial = (number) => (number < 2) ?
-                    1 : number * nthFactorial(number - 1);
+                nthFactorial = (number) => 
+                    (number < 2) ? 1 : number * nthFactorial(number - 1);
 
                 return nthFactorial(n);
             }
@@ -27,8 +27,8 @@ namespace AdvancedCSharp {
             public static int LocalFunctionFactorial(int n) {
                 return nthFactorial(n);
 
-                int nthFactorial(int number) => (number < 2) ?
-                    1 : number * nthFactorial(number - 1);
+                static int nthFactorial(int number) => 
+                    (number < 2) ? 1 : number * nthFactorial(number - 1);
             }
         }
     }

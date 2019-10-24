@@ -6,7 +6,7 @@ using System.Reflection;
 namespace AdvancedCSharp {
 
     public class Lambda : ITutorial {
-
+        
         public void Run() {
             var writer1 = new Writer(MyWrite);
             writer1.Write("Hello");

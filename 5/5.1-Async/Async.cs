@@ -14,11 +14,11 @@ namespace AdvancedCSharp {
         public void Run() {
             var s = new Stopwatch();
             s.Start();
-            var results1 = Helper.LoadSites1("http://google.com", "http://microsoft.com", "http://apple.com");
+            var results1 = Helper.LoadSites1("http://google.com", "http://microsoft.com", "http://umutozel.com");
             Console.WriteLine("Sync Load: " + s.ElapsedMilliseconds);
 
             s.Restart();
-            var results2 = Helper.LoadSites2("http://google.com", "http://microsoft.com", "http://apple.com").Result;
+            var results2 = Helper.LoadSites2("http://google.com", "http://microsoft.com", "http://umutozel.com").Result;
             Console.WriteLine("Async Load: " + s.ElapsedMilliseconds);
 
             Helper.Explanation();
@@ -56,10 +56,10 @@ namespace AdvancedCSharp {
             }
 
             private static void DoSomeStuff() {
-                var count = new Random().Next(10, 100);
+                var count = new Random().Next(10, 50);
                 for (var i = 0; i < count; i++) {
                     Console.WriteLine("Doing some other stuff");
-                    Thread.Sleep(100);
+                    Thread.Sleep(30);
                 }
             }
 
@@ -67,7 +67,7 @@ namespace AdvancedCSharp {
                 var myTask = new MyStateMachine<Company>();
                 var timer = new Timer(
                     _ => myTask.SetResult(new Company { Id = new Random().Next(10000) }),
-                    null, 3333, 3333
+                    null, 1111, 1111
                 );
                 return myTask;
             }

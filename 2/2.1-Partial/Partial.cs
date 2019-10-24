@@ -9,7 +9,7 @@ namespace AdvancedCSharp {
             
             s.SetData(40, 32);
         }
-
+        
         public partial class Shape {
             public uint Height { get; private set; }
             public uint Width { get; private set; }

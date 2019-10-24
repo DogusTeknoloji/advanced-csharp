@@ -1,7 +1,5 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace AdvancedCSharp {
 
@@ -23,7 +21,7 @@ namespace AdvancedCSharp {
 
             public IEnumerable<TEntity> Entities<TEntity>() where TEntity : class, IEntity, new() {
                 // this function will be compiled as a state machine!
-                var count = new Random().Next(10);
+                var count = new Random().Next(5, 10);
                 for (var i = 0; i < count; i++) {
                     var entity = new TEntity { Id = i };
                     yield return entity;

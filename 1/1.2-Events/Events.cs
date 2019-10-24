@@ -17,12 +17,14 @@ namespace AdvancedCSharp {
             public void Print(string value) {
                 Console.WriteLine(value);
 
-                OnPrinted(new PrintEventArgs(value));
+                OnPrinted(value);
             }
 
-            protected virtual void OnPrinted(PrintEventArgs e) {
+            protected virtual void OnPrinted(string data) {
                 var handler = Printed;
-                handler?.Invoke(this, e);
+                if (handler != null) {
+                    handler.Invoke(this, new PrintEventArgs(data));
+                }
             }
         }
 

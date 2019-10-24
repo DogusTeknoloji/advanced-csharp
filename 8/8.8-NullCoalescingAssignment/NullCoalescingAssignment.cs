@@ -7,6 +7,9 @@ namespace AdvancedCSharp {
 
         public void Run() {
             List<int> numbers = null;
+            if (numbers == null) {
+                numbers = new List<int>();
+            }
             int? a = null;
 
             // new operator!
